@@ -1,0 +1,175 @@
+
+
+
+* {
+  box-sizing: border-box;
+  /*border: 1px red dashed;*/
+}
+
+body {
+  background-color: beige;
+}
+
+.category{
+
+      padding: 5px 15px;
+      display: inline-flex;
+      justify-content: center;
+      width: 100%;
+      right: 0;
+      left: 0;
+      height: 50px;
+      /*border: 2px red solid;*/
+}
+
+
+.category div {
+  margin-left: 2px;
+  margin-right: 2px;
+  width:inherit+5px;
+  vertical-align: middle;
+  padding: 10px;
+  /*border: 2px red solid;*/
+}
+
+.characteristic div{
+    padding: 5px 15px;
+    justify-content: center;
+    display: inline-block;
+    border: 2px black solid;
+    border-top: 0px;
+
+
+}
+.characteristic{
+    width: 100%;
+    padding: 5px 15px;
+    /*justify-content: center;*/
+    /*display: inline-block;*/
+    text-align: center;
+
+}
+.group {
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+  width: 5%;
+  display: inline-block;
+
+
+
+}
+
+.group:hover {
+  transform: scale(1.5);
+  transform: perspective();
+  transform: translate(justify);
+  transition: all 1s ease;
+
+}
+
+.other-nonmetals:hover {
+  transform: scale(1.5);
+}
+.noble-gases:hover {
+  transform: scale(1.5);
+}
+.halogens:hover {
+  transform: scale(1.5);
+}
+.metalloids:hover {
+  transform: scale(1.5);
+}
+.halogens:hover + .array {
+  opacity: .25;
+}
+.alkaline-earth-metals:hover {
+  transform: scale(1.5);
+}
+.alkali-metals:hover {
+  transform: scale(1.5);
+}
+.transition-metals:hover {
+  transform: scale(1.5);
+}
+.lanthanoids:hover {
+  transform: scale(1.5);
+}
+.actinoids:hover {
+  transform: scale(1.5);
+}
+.post-transition-metals:hover {
+  transform: scale(1.5);
+}
+
+.empty {
+  border: none;
+  width: 5%;
+}
+
+.other-nonmetals {
+  background-color: limegreen;
+}
+
+.halogens {
+    background-color: mediumblue;
+}
+
+.noble-gases {
+    background-color: purple;
+}
+
+.metalloids {
+    background-color: green;
+}
+
+.alkaline-earth-metals{
+    background-color: yellow;
+}
+
+.alkali-metals{
+    background-color: orange;
+}
+
+.transition-metals{
+    background-color: pink;
+}
+
+.post-transition-metals{
+    background-color: lightblue;
+}
+
+.lanthanoids{
+    background-color: brown;
+}
+
+.actinoids{
+    background-color: red;
+}
+
+
+footer {
+  color: grey;
+
+  text-align: center;
+}
+
+
+
+
+            .atomic-mass {
+                max-width: none;
+                font-size: 9px;
+            }
+
+            .atomic-number {
+                font-size: 15px;
+            }
+
+            .element-name {
+                font-size: 9px;
+            }
+
+            .atomic-orbital-shells {
+                display: none;
+            }
